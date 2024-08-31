@@ -15,7 +15,7 @@ import lombok.ToString;
 public class Article {
     @Id
     @GeneratedValue
-    private  Long ID;
+    private  Long id;
     @Column
     private String title;
     @Column

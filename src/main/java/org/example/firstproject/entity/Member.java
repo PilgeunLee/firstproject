@@ -11,10 +11,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Entity
-public class Member {
+public class Member{
     @Id
     @GeneratedValue
-    private Long ID;
+    private Long id;
 
     @Column
     private String email;
@@ -22,4 +22,7 @@ public class Member {
     @Column
     private String password;
 
+    public Member() {
+
+    }
 }
